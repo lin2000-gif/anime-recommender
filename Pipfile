@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 chromadb = "*"
+ratelimit = "*"
+jikanpy-v4 = "*"
+requests = "*"
 
 [dev-packages]
 
