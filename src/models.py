@@ -16,3 +16,8 @@ class UserAnimeRating:
     mal_id: str
     score: int
     status: str
+
+@dataclass
+class User:
+    username: str
+    rating_history: list[UserAnimeRating]
